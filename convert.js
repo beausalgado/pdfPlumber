@@ -26,25 +26,41 @@ const myModule = require('./words.json');
 for (let i=0; i<myModule.length; i++) {
 
 /*     Creates new object when fontname includes bold word and pushes to array */
+if (myModule[i].fontname.includes("Bold")) {
+/*     remove the let to createNewEntry so that it's accessible outside the function */
+     createNewEntry = {
+     entry:myModule[i].text
+    }
+}
+if (myModule[i].fontname.includes("Regular")) {
+    let newMeaningArray = []
 
-    if (myModule[i].fontname.includes("Bold")) {
-           let createNewEntry = {
-            entry:myModule[i].text
-           }
+    while (myModule[i].fontname.includes("Regular")) {
 
+        newMeaningArray.push(myModule[i].text);
+
+    }
+  return  console.log(newMeaningArray)
+    // console.log(createNewEntry)
+    // createNewEntry.meaning1 = "test"
+    // console.log(createNewEntry)
+} 
+
+
+    
 /* Add synonyms to the entry before pushing to array. A for loop within the for loop  */
 
-   while (myModule[i].fontname.includes("Regular")) {
-          let newMeaningArray = [];
-          newMeaningArray.push(myModule[i].text);
-          console.log(newMeaningArray)
-          console.log("yay")
-        }
+//    while (myModule[i].fontname.includes("Regular")) {
+//           let newMeaningArray = [];
+//           newMeaningArray.push(myModule[i].text);
+//           console.log(newMeaningArray)
+//          return console.log("newMeaningArray")
+//         }
         // createNewEntry.meaning.push(newMeaningArray)
 
 
-           outerArray.push(createNewEntry)
-        }
+        //    outerArray.push(createNewEntry)
+        
 
 //    if (myModule[i].fontname.includes("Regular")){
 

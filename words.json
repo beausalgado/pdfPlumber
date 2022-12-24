@@ -1,38 +1,5 @@
 [
     {
-        "text": "palo",
-        "x0": 84.5748,
-        "x1": 99.3654,
-        "top": 95.42790000000002,
-        "doctop": 95.42790000000002,
-        "bottom": 104.42790000000002,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "barra",
-        "x0": 84.5748,
-        "x1": 102.31559999999999,
-        "top": 106.2459,
-        "doctop": 106.2459,
-        "bottom": 115.2459,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "vara",
-        "x0": 84.5748,
-        "x1": 98.66069999999999,
-        "top": 117.06389999999999,
-        "doctop": 117.06389999999999,
-        "bottom": 126.06389999999999,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
         "text": "atizar",
         "x0": 84.5748,
         "x1": 111.9078,
