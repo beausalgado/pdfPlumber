@@ -31,23 +31,24 @@ if (myModule[i].fontname.includes("Bold")) {
      createNewEntry = {
      entry:myModule[i].text
     }
+    
 }
 if (myModule[i].fontname.includes("Regular")) {
     let newMeaningArray = []
 
     for (let j = i; myModule[j].fontname.includes("Regular") ;j++) {
 
-        console.log('house')
-
-        // newMeaningArray.push(myModule[i].text);
-
+        
+        newMeaningArray.push(myModule[j].text);
+        
     }
+    console.log(newMeaningArray)
         
         
 
         
  
-    console.log(newMeaningArray)
+    
     // console.log(createNewEntry)
     // createNewEntry.meaning1 = "test"
     // console.log(createNewEntry)
