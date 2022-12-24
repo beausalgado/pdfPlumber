@@ -5,7 +5,6 @@ const myModule = require('./words.json');
  function formatTheBeautifulObject() {
     outerArray = []
 
-     
 for (let i=0; i<myModule.length; i++) {
 
 /*     Creates new object when fontname includes bold word and pushes to array */
@@ -15,33 +14,27 @@ if (myModule[i].fontname.includes("Bold")) {
      entry:myModule[i].text
     }
     
-}
-if (myModule[i].fontname.includes("Regular")) {
     let newMeaningArray = []
 
-    for (let j = i; myModule[j].fontname.includes("Regular") ;j++) {
+ for (let j = i+1; myModule[j].fontname.includes("Regular") ;j++) {
 
         
         newMeaningArray.push(myModule[j].text);
         
     }
-    console.log(newMeaningArray)
-        
-        
+ createNewEntry["meaning" + [i]] = newMeaningArray;
+    console.log(createNewEntry)
 
-        
- 
+return newMeaningArray
     
-    // console.log(createNewEntry)
-    // createNewEntry.meaning1 = "test"
-    // console.log(createNewEntry)
-} 
+}
+
 
 
     
 
     }
-    console.log(outerArray)
+   
      
     }
     formatTheBeautifulObject()
