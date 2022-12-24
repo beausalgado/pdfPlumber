@@ -1,0 +1,19 @@
+{
+  "name": "pythonpdfplumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beausalgado/pdfPlumber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beausalgado/pdfPlumber/issues"
+  },
+  "homepage": "https://github.com/beausalgado/pdfPlumber#readme"
+}
