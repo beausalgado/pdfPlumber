@@ -33,95 +33,7 @@
         "fontname": "AAAAAB+AGaramond-Regular"
     },
     {
-        "text": "estimular",
-        "x0": 84.5748,
-        "x1": 116.65259999999999,
-        "top": 171.85590000000002,
-        "doctop": 171.85590000000002,
-        "bottom": 180.85590000000002,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "activar",
-        "x0": 84.5748,
-        "x1": 107.3286,
-        "top": 182.6739,
-        "doctop": 182.6739,
-        "bottom": 191.6739,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "remover",
-        "x0": 84.5748,
-        "x1": 112.73039999999999,
-        "top": 193.4919,
-        "doctop": 193.4919,
-        "bottom": 202.4919,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "azuzar",
-        "x0": 84.5748,
-        "x1": 106.2243,
-        "top": 204.30989999999997,
-        "doctop": 204.30989999999997,
-        "bottom": 213.30989999999997,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "aguijonear",
-        "x0": 84.5748,
-        "x1": 120.70169999999999,
-        "top": 215.12789999999995,
-        "doctop": 215.12789999999995,
-        "bottom": 224.12789999999995,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "hurgar",
-        "x0": 84.5748,
-        "x1": 107.4348,
-        "top": 225.94589999999994,
-        "doctop": 225.94589999999994,
-        "bottom": 234.94589999999994,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "reanimar",
-        "x0": 84.5748,
-        "x1": 115.40519999999998,
-        "top": 236.76390000000004,
-        "doctop": 236.76390000000004,
-        "bottom": 245.76389999999998,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "promover",
-        "x0": 84.5748,
-        "x1": 118.12589999999999,
-        "top": 247.58189999999996,
-        "doctop": 247.58189999999996,
-        "bottom": 256.58189999999996,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "fomentar",
+        "text": "fomentar de frente",
         "x0": 84.5748,
         "x1": 116.3052,
         "top": 258.39989999999995,
@@ -132,12 +44,34 @@
         "fontname": "AAAAAB+AGaramond-Regular"
     },
     {
-        "text": "incitar",
+        "text": "incitar a las canchas",
         "x0": 84.5748,
         "x1": 106.902,
         "top": 269.21789999999993,
         "doctop": 269.21789999999993,
         "bottom": 278.21789999999993,
+        "upright": true,
+        "direction": 1,
+        "fontname": "AAAAAB+AGaramond-Regular"
+    },
+    {
+        "text": "afincar (amer.)",
+        "x0": 84.5748,
+        "x1": 110.3202,
+        "top": 437.1578999999999,
+        "doctop": 437.1578999999999,
+        "bottom": 446.1578999999999,
+        "upright": true,
+        "direction": 1,
+        "fontname": "AAAAAB+AGaramond-Regular"
+    },
+    {
+        "text": "afincar (amer.)",
+        "x0": 84.5748,
+        "x1": 110.3202,
+        "top": 437.1578999999999,
+        "doctop": 437.1578999999999,
+        "bottom": 446.1578999999999,
         "upright": true,
         "direction": 1,
         "fontname": "AAAAAB+AGaramond-Regular"
@@ -297,7 +231,7 @@
         "fontname": "AAAAAB+AGaramond-Regular"
     },
     {
-        "text": "afincar ",
+        "text": "afincar (amer.)",
         "x0": 84.5748,
         "x1": 110.3202,
         "top": 437.1578999999999,
@@ -306,17 +240,6 @@
         "upright": true,
         "direction": 1,
         "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "(amer.)",
-        "x0": 110.5474,
-        "x1": 131.084,
-        "top": 438.59129999999993,
-        "doctop": 438.59129999999993,
-        "bottom": 445.59129999999993,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAE+Futura"
     },
     {
         "text": "atlante",
@@ -493,5 +416,16 @@
         "upright": true,
         "direction": 1,
         "fontname": "AAAAAB+AGaramond-Regular"
+    },
+    {
+        "text": "aplacar",
+        "x0": 84.5748,
+        "x1": 108.9144,
+        "top": 293.83289999999994,
+        "doctop": 293.83289999999994,
+        "bottom": 302.83289999999994,
+        "upright": true,
+        "direction": 1,
+        "fontname": "AAAAAD+AGaramond-Italic"
     }
 ]

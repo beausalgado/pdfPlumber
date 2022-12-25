@@ -82,8 +82,17 @@ if (myModule[i].fontname.includes("Regular")) {
     
 
 //  {
+//     entry: atizar,
+//     meaning1: { words: ["word," "word," "word," "word," "word"],
+//                 frases:["word," "word," "word," "word," "word"],
+//                 americanisms: ["word," "word," "word," "word," "word"],
+//                 italics: ["word," "word," "word," "word," "word"]
+//                 }
+//  }
+
+//  {
     // entry: atizar,
-//     meaning1: [
+//     meaning1: { 
 //         word1: "word",
 //         word2: 'word',
 //         word3: "word"
@@ -94,7 +103,7 @@ if (myModule[i].fontname.includes("Regular")) {
 //         italics2: "italics",
 //         italics3: "italics",
         
-//     ],
+//     },
 
 //     meaning2: [
 //         word1: "word",

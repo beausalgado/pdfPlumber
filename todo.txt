@@ -1,0 +1,4 @@
+**PreData Processing**
+
+1. Check words for white space at the beginning and after
+2. Join amer. to the word before it
