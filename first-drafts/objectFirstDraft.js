@@ -1,4 +1,4 @@
-const myModule = require('./words.json');
+const myModule = require('../words.json');
 
 // Create a massive JSON object through Python and then format it in Javascript. This is going to take a while.
 

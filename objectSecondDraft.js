@@ -1,4 +1,5 @@
 const myModule = require('./wordOG.json');
+const fs = require('fs');
 
 // Create a massive JSON object through Python and then format it in Javascript. This is going to take a while.
 
@@ -101,6 +102,14 @@ if (myModule[i].fontname.includes("Bold")) {
 
 }
 // console.log(masterArray)
+let json = JSON.stringify(masterArray)
+// console.log(json)
+try {
+    fs.writeFileSync('python-extrator.json', json);
+    // file written successfully
+  } catch (err) {
+    console.error(err);
+  }
    return masterArray
     }
 
