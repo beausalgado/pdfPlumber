@@ -22,21 +22,22 @@ let object1 = [
     }
 ]
 
-
+// let array2 = [1, 2, 3, 4, 5]
 function forloop () {
 
-for (i = 0; i<3; i++){
-    console.log(object1[i].element2)
-for (j = i; !Number.isInteger(object1[j].element2); j++){
+// for (i = 0; i<3; i++){
+//     console.log(object1[i].element2)
+// for (j = i; !Number.isInteger(object1[j].element2); j++){
 
-    console.log(object1[j].element2, "second")
+//     console.log(object1[j].element2, "second")
 
-}
-// object1[i].element2
-// console.log(Number.isInteger(object1[i].element2))
-// console.log(object1[1].element2)
-}
+// }
+// // object1[i].element2
+// // console.log(Number.isInteger(object1[i].element2))
+// // console.log(object1[1].element2)
+// }
 
+console.log(array2.length)
 
 }
 

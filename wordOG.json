@@ -526,16 +526,5 @@
        "upright":true,
        "direction":1,
        "fontname":"AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "aplacar",
-        "x0": 84.5748,
-        "x1": 108.9144,
-        "top": 293.83289999999994,
-        "doctop": 293.83289999999994,
-        "bottom": 302.83289999999994,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAD+AGaramond-Italic"
     }
  ]

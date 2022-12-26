@@ -3,29 +3,31 @@ const myModule = require('./wordOG.json');
 // Create a massive JSON object through Python and then format it in Javascript. This is going to take a while.
 
  function formatTheBeautifulObject() {
-    outerArray = []
-
+    masterArray = []
+/* Why length minus 1? */
 for (let i=0; i<myModule.length; i++) {
 
 /*     Creates new object when fontname includes bold word and pushes to array */
 if (myModule[i].fontname.includes("Bold")) {
-/*     remove the let to createNewEntry so that it's accessible outside the function */
-     createNewEntry = {
+/*     remove the let to newEntry so that it's accessible outside the function */
+     newEntry = {
      entry:myModule[i].text,
      meaning1: {}
     }
-    /* An empty array to add meanings to */
-    let newMeaningArray = []
+
 /* a counter to determine which meaning per word */
     let meaningCount = 1;
+
+    /* Arrays to catch the categorized data */
     let words = [];
     let phrases = [];
     let americanisms = [];
     let antonyms = [];
+
 /* Runs a second for loop to push synonyms to array and then attaches the array to the object */ 
 /* Starts on i plus 1 so that it doesn't include the bold word */ 
- for (let j = i+1; !myModule[j].fontname.includes("Bold") ;j++) {
-
+ for (let j = i+1; (myModule[j] ? !myModule[j].fontname.includes("Bold") : myModule[j]) ;j++) {
+     
 
 
      /* This is to filter for the second meaning of a word. Here the text is always regular and there's a gap between 12 and 14 between the start and the word before it and isn't a phrase */
@@ -33,7 +35,7 @@ if (myModule[i].fontname.includes("Bold")) {
         /* First it adds the previous meaning to the entry object */
         meaningCount = meaningCount + 1;
         /* adds another meaning to the entry object */
-        createNewEntry["meaning" + meaningCount] = {};
+        newEntry["meaning" + meaningCount] = {};
 
 /* sets the arrays equal to zero to catch another group */
          words = [];
@@ -48,9 +50,9 @@ if (myModule[i].fontname.includes("Bold")) {
             words.push(myModule[j].text);
         }
         /* Adds the array onto the object but first checks to see if it exists so that it doesn't execute it every time round*/
-        if (!createNewEntry["meaning" + meaningCount].words){
+        if (!newEntry["meaning" + meaningCount].words){
 
-            createNewEntry["meaning" + meaningCount].words = words;
+            newEntry["meaning" + meaningCount].words = words;
         }
         /* clears the array for the second meaning */
 
@@ -60,18 +62,18 @@ if (myModule[i].fontname.includes("Bold")) {
         }
 
         /* Adds the array onto the object but first checks to see if it exists so that it doesn't execute it every time round*/
-        if (!createNewEntry["meaning" + meaningCount].phrases){
+        if (!newEntry["meaning" + meaningCount].phrases){
 
-            createNewEntry["meaning" + meaningCount].phrases = phrases;
+            newEntry["meaning" + meaningCount].phrases = phrases;
         }
         if (myModule[j].text.includes("(amer.)")) {
             americanisms.push(myModule[j].text);
         }
 
         /* Adds the array onto the object but first checks to see if it exists so that it doesn't execute it every time round*/
-        if (!createNewEntry["meaning" + meaningCount].americanisms){
+        if (!newEntry["meaning" + meaningCount].americanisms){
 
-            createNewEntry["meaning" + meaningCount].americanisms = americanisms;
+            newEntry["meaning" + meaningCount].americanisms = americanisms;
 
         }
 
@@ -83,22 +85,24 @@ if (myModule[i].fontname.includes("Bold")) {
 
 
         /* Adds the array onto the object but first checks to see if it exists so that it doesn't execute it every time round*/
-        if (!createNewEntry["meaning" + meaningCount].antonyms){
+        if (!newEntry["meaning" + meaningCount].antonyms){
 
 
-            createNewEntry["meaning" + meaningCount].antonyms = antonyms;
+            newEntry["meaning" + meaningCount].antonyms = antonyms;
         }
     }
 
-    console.log(createNewEntry)
-
-/* stop the for loops  */
- return createNewEntry
+    /* Pushes the entry to the master array */
+    masterArray.push(newEntry)
+    /* stop the for loops  */
+    console.log(newEntry)
+    
     
 }
 
-    }
-   
+}
+// console.log(masterArray)
+   return masterArray
     }
 
 formatTheBeautifulObject()
