@@ -1,4 +1,4 @@
-# spanishThesaurusIOSApp
+# spanish.thesaurus.iOS.app
 
 An iOS Spanish Thesaurus App.
 
