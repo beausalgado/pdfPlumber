@@ -25,7 +25,7 @@ from types import SimpleNamespace
 #     print(x.text)
 #     print(results)
 
-with pdfplumber.open("test2.pdf") as pdf:
+with pdfplumber.open("pdf_files/test2.pdf") as pdf:
     page = pdf.pages[0]
     left_page = page.crop((0, 1, 0.3 * float(page.width), 0.9 * float(page.height)))
     results = left_page.extract_words(x_tolerance=10, y_tolerance=1.5, keep_blank_chars=True, horizontal_ltr=True, extra_attrs=['fontname'], split_at_punctuation=False)
