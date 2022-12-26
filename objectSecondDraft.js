@@ -4,7 +4,6 @@ const myModule = require('./wordOG.json');
 
  function formatTheBeautifulObject() {
     masterArray = []
-/* Why length minus 1? */
 for (let i=0; i<myModule.length; i++) {
 
 /*     Creates new object when fontname includes bold word and pushes to array */
@@ -19,7 +18,7 @@ if (myModule[i].fontname.includes("Bold")) {
     let meaningCount = 1;
 
     /* Arrays to catch the categorized data */
-    let words = [];
+    let synonyms = [];
     let phrases = [];
     let americanisms = [];
     let antonyms = [];
@@ -38,7 +37,7 @@ if (myModule[i].fontname.includes("Bold")) {
         newEntry["meaning" + meaningCount] = {};
 
 /* sets the arrays equal to zero to catch another group */
-         words = [];
+         synonyms = [];
          phrases = [];
          americanisms = [];
          antonyms = [];
@@ -46,13 +45,13 @@ if (myModule[i].fontname.includes("Bold")) {
         
         /*    if it doesn't have spaces and has regular text, then it's a normal entry */
         if (myModule[j].fontname.includes("Regular") && !/\s/.test(myModule[j].text)){
-            /* collects the words into an array */
-            words.push(myModule[j].text);
+            /* collects the synonyms into an array */
+            synonyms.push(myModule[j].text);
         }
         /* Adds the array onto the object but first checks to see if it exists so that it doesn't execute it every time round*/
-        if (!newEntry["meaning" + meaningCount].words){
+        if (!newEntry["meaning" + meaningCount].synonyms){
 
-            newEntry["meaning" + meaningCount].words = words;
+            newEntry["meaning" + meaningCount].synonyms = synonyms;
         }
         /* clears the array for the second meaning */
 
