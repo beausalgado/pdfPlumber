@@ -6,10 +6,11 @@ from types import SimpleNamespace
 
 
 with pdfplumber.open("pdf_files/test2.pdf") as pdf:
+    # create accumulator to concatenate all the data from one file into a variable in order to write the file only once"
     accumulator = [];
 
     for page in pdf.pages:
-        p0 = pdf.pages[0]
+        p0 = page
 
     #     # crops the the page into quarters
         first_quarter = p0.crop((0.13 * float(p0.width), 0.12 * float(p0.height), 0.32 * float(p0.width), 0.89 * float(p0.height)))
@@ -28,9 +29,9 @@ with pdfplumber.open("pdf_files/test2.pdf") as pdf:
         fullExtract = firstExtract + secondExtract + thirdExtract + fourthExtract
         accumulator += fullExtract
 
-    # # converts the results to JSON
+# writes to file once the for loop is over with
     else:
-        print(accumulator)
+    # # converts the results to JSON
         jsoned = json.dumps(accumulator)
 
     # appends the results to a json file
@@ -38,5 +39,3 @@ with pdfplumber.open("pdf_files/test2.pdf") as pdf:
         f.write(jsoned)
 
         
-        # string = pyperclip.copy(str(results))
-        # print(json)
