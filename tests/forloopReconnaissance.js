@@ -36,8 +36,9 @@ function forloop () {
 // // console.log(Number.isInteger(object1[i].element2))
 // // console.log(object1[1].element2)
 // }
+array1.splice(2, 1)
 
-console.log(array2.length)
+console.log(array1)
 
 }
 

@@ -3,3 +3,4 @@
 1. Check words for white space at the beginning and after
 2. Join amer. to the word before it
 3. Remove entries with blank space
+4. Fix idioms that are on diffeerent lines and doesn't activate the new meaning filter. If x0 is the same, then it's a new meaning.
