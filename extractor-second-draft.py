@@ -5,7 +5,7 @@ from types import SimpleNamespace
 
 
 
-with pdfplumber.open("pdf_files/test2.pdf") as pdf:
+with pdfplumber.open("diccionarioOG.pdf") as pdf:
     # create accumulator to concatenate all the data from one file into a variable in order to write the file only once"
     accumulator = [];
 
@@ -15,7 +15,7 @@ with pdfplumber.open("pdf_files/test2.pdf") as pdf:
     #     # crops the the page into quarters
         first_quarter = p0.crop((0.13 * float(p0.width), 0.12 * float(p0.height), 0.32 * float(p0.width), 0.89 * float(p0.height)))
         second_quarter = p0.crop((0.32 * float(p0.width), 0.12 * float(p0.height), 0.50 * float(p0.width), 0.89 * float(p0.height)))
-        third_quarter = p0.crop((0.49 * float(p0.width), 0.12 * float(p0.height), 0.68 * float(p0.width), 0.89 * float(p0.height)))
+        third_quarter = p0.crop((0.50 * float(p0.width), 0.12 * float(p0.height), 0.68 * float(p0.width), 0.89 * float(p0.height)))
         fourth_quarter = p0.crop((0.68 * float(p0.width), 0.12 * float(p0.height), 0.90 * float(p0.width), 0.89 * float(p0.height)))
 
 

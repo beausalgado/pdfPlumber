@@ -8,8 +8,7 @@ function fixSpacedPhrases () {
 
         if(fixedJSON[i].x0 - fixedJSON[i+1].x0 < -5 && fixedJSON[i].x0 - fixedJSON[i+1].x0 > -20){
 
-            console.log(fixedJSON[i].text)
-            console.log(fixedJSON[i+1].text)
+
             concatenatedText = fixedJSON[i].text + " " + fixedJSON[i+1].text;
 
            fixedJSON[i].text = concatenatedText;
