@@ -5,7 +5,7 @@ function deleteSingleLetterEntries () {
     fixedJSON = extractedJSON;
 
     for (i=0; i< extractedJSON.length; i++) {
-
+  
         if(fixedJSON[i].text.length < 2){
 
             extractedJSON.splice(i, 1);
