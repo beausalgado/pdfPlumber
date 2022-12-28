@@ -14,7 +14,7 @@ with pdfplumber.open("pdf_files/test2.pdf") as pdf:
 
     #     # crops the the page into quarters
         first_quarter = p0.crop((0.13 * float(p0.width), 0.12 * float(p0.height), 0.32 * float(p0.width), 0.89 * float(p0.height)))
-        second_quarter = p0.crop((0.30 * float(p0.width), 0.12 * float(p0.height), 0.50 * float(p0.width), 0.89 * float(p0.height)))
+        second_quarter = p0.crop((0.32 * float(p0.width), 0.12 * float(p0.height), 0.50 * float(p0.width), 0.89 * float(p0.height)))
         third_quarter = p0.crop((0.49 * float(p0.width), 0.12 * float(p0.height), 0.68 * float(p0.width), 0.89 * float(p0.height)))
         fourth_quarter = p0.crop((0.68 * float(p0.width), 0.12 * float(p0.height), 0.90 * float(p0.width), 0.89 * float(p0.height)))
 

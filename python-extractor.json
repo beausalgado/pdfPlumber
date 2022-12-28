@@ -11484,23 +11484,12 @@
         "fontname": "AAAAAB+AGaramond-Regular"
     },
     {
-        "text": "sin encomendarse a Dios",
+        "text": "sin encomendarse a Dios ni al diablo",
         "x0": 84.5748,
         "x1": 171.37800000000001,
         "top": 551.016,
         "doctop": 4334.321,
         "bottom": 560.016,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "ni al diablo",
-        "x0": 93.0798,
-        "x1": 132.54389999999998,
-        "top": 561.699,
-        "doctop": 4345.004,
-        "bottom": 570.699,
         "upright": true,
         "direction": 1,
         "fontname": "AAAAAB+AGaramond-Regular"
@@ -12051,17 +12040,6 @@
         "top": 543.5962999999999,
         "doctop": 4326.9012999999995,
         "bottom": 552.5962999999999,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "s",
-        "x0": 170.0787,
-        "x1": 171.37800000000001,
-        "top": 551.016,
-        "doctop": 4334.321,
-        "bottom": 560.016,
         "upright": true,
         "direction": 1,
         "fontname": "AAAAAB+AGaramond-Regular"
@@ -37235,23 +37213,12 @@
         "fontname": "AAAAAB+AGaramond-Regular"
     },
     {
-        "text": "ir con el rabo entre las",
+        "text": "ir con el rabo entre las piernas",
         "x0": 392.8425,
         "x1": 470.7618,
         "top": 325.99269999999996,
         "doctop": 12432.5687,
         "bottom": 334.99269999999996,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "piernas",
-        "x0": 401.3475,
-        "x1": 426.0381,
-        "top": 336.70269999999994,
-        "doctop": 12443.278699999999,
-        "bottom": 345.70269999999994,
         "upright": true,
         "direction": 1,
         "fontname": "AAAAAB+AGaramond-Regular"
@@ -51403,17 +51370,6 @@
         "fontname": "AAAAAD+AGaramond-Italic"
     },
     {
-        "text": "b",
-        "x0": 243.4547,
-        "x1": 283.4645,
-        "top": 103.91020000000003,
-        "doctop": 18263.774199999996,
-        "bottom": 243.91020000000003,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAG+Futura-Heavy"
-    },
-    {
         "text": "babero",
         "x0": 187.3278,
         "x1": 221.10029999999998,
@@ -51819,17 +51775,6 @@
         "upright": true,
         "direction": 1,
         "fontname": "AAAAAB+AGaramond-Regular"
-    },
-    {
-        "text": "b",
-        "x0": 277.79521,
-        "x1": 322.55357000000004,
-        "top": 103.91020000000003,
-        "doctop": 18263.774199999996,
-        "bottom": 243.91020000000003,
-        "upright": true,
-        "direction": 1,
-        "fontname": "AAAAAG+Futura-Heavy"
     },
     {
         "text": "babilónico",
